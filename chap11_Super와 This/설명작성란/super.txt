@@ -15,7 +15,7 @@ super. 과 super()
 		}
 	Parent(String name){
 	this.name = name;
-	//자식 문자열 파라미터 생성자
+	//자식 문자열 매개변수(=파라미터) 생성자
 	}
 	void show(){
 	System.out.println("출력 메서드");

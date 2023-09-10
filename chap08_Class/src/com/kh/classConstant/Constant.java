@@ -9,7 +9,7 @@ public class Constant {
 		System.out.println("a의 값 : " + a);		
 		System.out.println("b의 값 : " + b);
 		
-		
+		//a = 2; 바꿔지지 않음. 왜? a가 1이라는 상수를 위에서 지정했기 때문.
 		System.out.println("a의 값 : " + a);
 
 	}

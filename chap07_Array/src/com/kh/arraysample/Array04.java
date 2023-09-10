@@ -7,7 +7,7 @@ public class Array04 {
 		//                         0      1	      2      3      4
 		String[] inturnArray = {"±è°æ³­","±è¸»¶Ë","È«±æµ¿","¹ÚÃ¶¼ö","ÇãÇãÇã"};
 		
-		inturnArray[3] = "¹ÚÇÑ³ª";
+		inturnArray[3] = "¹ÚÃ¶¼ö";
 		//System.out.println(inturnArray[3]);
 		
 		/*¿¹Á¦ String[] fruitArray = {"»ç°ú","µþ±â","Å°À§","¸Þ·Ð","±Ö"};

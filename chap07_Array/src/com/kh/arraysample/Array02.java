@@ -24,7 +24,7 @@ public class Array02 {
 	}*/
 		int[] numbers = new int[10];
 		//int value = 10; //numbers.length = 10이기 때문에
-		int value = numbers.length;
+		int value = numbers.length;//자리의 크기 즉 길이이기 때문에 10을 정의.
 		//      0     0 <       10        i+1
 		for(int i = 0; i < numbers.length; i++) {
 			numbers[i] = value--;

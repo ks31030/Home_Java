@@ -7,7 +7,7 @@ public class CalculatorRun extends Calculator{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in); //스캐너 사용
 		
-		Calculator cal = new Calculator(); //멤버변수 설정
+		Calculator cal = new Calculator(); //멤버변수 설정. Calculator는 상속 받을 클래스명을 적은 것
 		System.out.println("★★★숫자 2개 입력하여 사칙연산 값 구하기★★★");
 		System.out.println();
 		

@@ -41,9 +41,9 @@ public class RainbowMain {
 		
 		//향상된 for문 이용해서 색상 출력하기
 		for(String AAA : colors) {
-//			System.out.println(AAA);
+		System.out.print(AAA + " ");
 		}
-		
+		System.out.println("");
 		//최후출력 빨파보
 		//1. 인덱스 이용해서 자리출력
 		System.out.println("최후출력 : " + colors.get(0) + " " + colors.get(7) + " " + colors.get(8));

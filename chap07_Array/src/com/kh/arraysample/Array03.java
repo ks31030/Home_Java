@@ -12,7 +12,7 @@ public class Array03 {
 		 	- String 안에 char배열로 만들어 주는 녀석 -> toCharArray
 		 	- ex) String 안녕하세요 = {'안','녕','하','세','요'} 
 		 3. 검색할 문자 Scanner
-		 4. 문자가 문자열에 몇개 들어간지 갯수와
+		 4. 문자(알파벳)가 문자열에 몇개 들어간지 갯수(글자 총 갯수)와
 		 5. 몇번째 인덱스에 위치한지
 		 6. 인덱스 출력하기 
 		 */ 
@@ -29,11 +29,11 @@ public class Array03 {
 		//toCharArray -> 문자열을 문자 배열로 변환하는 역할
 		//문자열을 -> 문자로 반환.
 		//String -> char
-		//검색할 문자가`
+		//검색할 문자가
 		char[] charString = inputString.toCharArray();
 		//문자열에 몇개 들어간지 갯수와 -> length
 		int charCount = charString.length;
-		System.out.println("charCount : " + charCount);
+		System.out.println("charCount : " + charCount + "글자");
 		//몇번째 인덱스에 위치한지 인덱스 출력하기 -> index
 		//총 길이가 얼마나 되는지 확인하고, 각 자릿값 출력하기
 		int count = 0;
@@ -47,7 +47,6 @@ public class Array03 {
 				System.out.println(i);
 				
 			}
-			count++;
 		}
 		
 	}

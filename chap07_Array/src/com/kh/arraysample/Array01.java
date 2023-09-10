@@ -8,7 +8,7 @@ public class Array01 {
 		// Array
 		// 같은 타입의 여러 변수를 하나의 묶음으로 다루는 것.
 		/*
-		 동일한 데이터 타입을 가진 여러 값을 한곳에 저장하고 인덱스를 사용하여 각 값에 접근할 수 있도록 제공.
+		 동일한 데이터 타입을 가진 여러 값을 한곳에 저장하고 인덱스(자릿값)를 사용하여 각 값에 접근할 수 있도록 제공.
 		 배열은 프로그램에서 데이터를 보다 효율적으로 저장하고 관리하는 데 사용.
 		 데이터의 집합을 쉽게 다룰 수 있도록 도와줌.
 		 배열의 구조는
@@ -50,7 +50,7 @@ public class Array01 {
 		//System.out.println("stringArray : " + stringArray1[4]);//5 지정하지 않은 자리는 에러(null)가 뜸.
 		String[] food = {"과자", "과일", "음식", "삼겹살"}; //index 3개짜리
 		int foodLength = food.length;
-		System.out.println("food 배열의 길이 : " + foodLength);
+		System.out.println("food 배열의 길이 : " + foodLength);//배열의 크기 곧, 길이를 이야기함. 총 4
 		
 		
 		
