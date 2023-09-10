@@ -12,6 +12,7 @@ public class Scannersexam {
 		int inum4, inum5;
 		inum4 = sc.nextInt();
 		inum5 = sc.nextInt();
-		System.out.println(inum4 + inum5);	
+		System.out.println(inum4 + inum5);
+	
 	}
 }

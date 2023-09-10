@@ -59,5 +59,6 @@ public class VariableConversion {
 		System.out.println(shortValue);
 		
 		
+		
 	}
 }

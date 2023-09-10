@@ -1,5 +1,7 @@
 package com.kh.switchsample;
-       
+
+import java.util.Scanner;
+
 public class SwitchSample {
 	public static void main(String[] args) {
 		// Switch문
@@ -19,7 +21,9 @@ public class SwitchSample {
 		  //위 모든 케이스와 일치하지 않을 때 실행되는 코드
 		  }
 		 */
-		int day = 30;
+		Scanner sc = new Scanner(System.in);
+		int day;
+		day = sc.nextInt();
 		switch (day) { //day == 30
 			case 1: //case가 30이면 월요일 출력(false)
 				System.out.println("월요일"); //미출력
@@ -34,7 +38,7 @@ public class SwitchSample {
 				System.out.println("주말");
 		}
 		
-		int choice = 2;
+		int choice = 4;
 		switch (choice) {
 			case 1:
 				System.out.println("아메리카노 주문하셨습니다.");

@@ -35,9 +35,9 @@ public class for01 {
 		}
 		*/
 		int	sum = 0;
-		for(int i=1; i<=10; i++) {
+		for(int i=1; i<=10; i++) {//for문 안에서 반복될 정수 i를 선언하여 i가 10보다 작거나 같을 경우까지 지속적으로 1씩 증가.
 			//합을 구하자.
-			sum += i;
+			sum += i; //+=은 할당된 값들을 누적하여 더함. 10까지의 모든 값을 더해야 해서 사용함.
 			System.out.println("1부터 10까지의 합 : " + sum);
 		}
 		
@@ -50,7 +50,7 @@ public class for01 {
 		
 		int sum2 = 100;
 		for (int i=10; i>=2; i--) {
-			sum2 -= i;
+			sum2 -= i; //정수 i가 10부터 1씩 감소하면서 i가 2보다 크거나 같을 경우까지의 차를 출력.
 			System.out.println("sum2 - : " + sum2);
 		}
 		int mul = 1;
